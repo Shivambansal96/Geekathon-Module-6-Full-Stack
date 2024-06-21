@@ -9,7 +9,6 @@ import { getAllTweets } from "../redux/tweetSlice";
 const useGetMyTweets = (id) => {
 
     const dispatch = useDispatch();
-
     const {refresh} = useSelector(store=>store.tweet)
 
     const fetchMyTweets = async() => {

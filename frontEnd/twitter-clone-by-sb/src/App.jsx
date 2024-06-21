@@ -23,7 +23,8 @@ const App = () => {
         {/* <Route path='/profile' element={<Profile />} /> */}
         <Route path='/profile/:id' element={<Profile />} />
         <Route path='/editprofile' element={<EditProfile />} />
-        <Route path='/notifications' element={<Notifications />} />
+        {/* <Route path='/notifications' element={<Notifications inputs={userInputs}  />} /> */}
+        <Route path='/notifications' element={<Notifications  />} />
       </Routes>
 
 
